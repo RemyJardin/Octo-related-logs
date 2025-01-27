@@ -1,0 +1,359 @@
+2025-01-24 08:30:39,589 - INFO - ################################################
+2025-01-24 08:30:39,591 - INFO - ##### OctoEverywhere For Klipper Starting ######
+2025-01-24 08:30:39,592 - INFO - ################################################
+2025-01-24 08:30:39,597 - INFO - Plugin Version: 3.6.5
+2025-01-24 08:30:39,600 - INFO - Our update config include was not found in the moonraker config, so we added it.
+2025-01-24 08:30:39,603 - INFO - No update config found or it was out of date, writing a new file.
+2025-01-24 08:30:39,605 - INFO - No config file was found on disk, so we are going to attempt to restart moonraker.
+2025-01-24 08:30:40,662 - INFO - No printer id was found, generating one now!
+2025-01-24 08:30:40,670 - INFO - New printer id created: BTOAJWLLSV1PCULJF1A7YLHVVW2EIL4U0CRTFIJRKVCCOYX8GB5PWID797KD
+2025-01-24 08:30:40,673 - INFO - No private key was found, generating one now!
+2025-01-24 08:30:40,679 - INFO - New private key created.
+2025-01-24 08:30:40,683 - INFO - We found our name existing in the moonraker allowed service file, so there's nothing to do.
+2025-01-24 08:30:40,721 - INFO - ZStandard Dict Training loaded. Data Length:112640 DictID:1
+2025-01-24 08:30:40,723 - INFO - Compression is using zstandard with 2 threads
+2025-01-24 08:30:40,726 - INFO - MDns cache file reset
+2025-01-24 08:30:40,735 - INFO - Setting up relay with frontend port 80
+2025-01-24 08:30:40,737 - INFO - OctoPingPong stats reset
+2025-01-24 08:30:40,741 - INFO - PingPong has detected a first time run. Updating latency stats now.
+2025-01-24 08:30:40,790 - INFO - No existing ui tags found, so we added them
+2025-01-24 08:30:40,807 - INFO - Updating the sw.js index.html revision [57457ba21fd7625377fbe9b9397e6379] -> [rhdl2mtqd0scv2oe1fncoo4803u094xc]
+2025-01-24 08:30:40,844 - INFO - Sw.js [/home/biqu/mainsail/sw.js] updated.
+2025-01-24 08:30:41,000 - INFO - MoonrakerApiRouter using bound to moonraker at 0.0.0.0:7125
+2025-01-24 08:30:41,004 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[1] wsId:281472898970144
+2025-01-24 08:30:41,216 - INFO - Websocket connected
+2025-01-24 08:30:41,221 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[1]. Starting handshake...
+2025-01-24 08:30:41,745 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[1], successfully connected to OctoEverywhere!
+2025-01-24 08:30:41,747 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2025-01-24 08:30:41,749 - WARNING - 
+2025-01-24 08:30:41,752 - WARNING - 
+2025-01-24 08:30:41,753 - WARNING - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 08:30:41,755 - WARNING - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 08:30:41,757 - WARNING -           This Plugin Isn't Connected To OctoEverywhere!          
+2025-01-24 08:30:41,759 - WARNING -  Use the following link to finish the setup and get remote access:
+2025-01-24 08:30:41,762 - WARNING -  https://octoeverywhere.com/getstarted?isFromKlipper=true&printerid=BTOAJWLLSV1PCULJF1A7YLHVVW2EIL4U0CRTFIJRKVCCOYX8GB5PWID797KD
+2025-01-24 08:30:41,764 - WARNING - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 08:30:41,766 - WARNING - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 08:30:41,768 - WARNING - 
+2025-01-24 08:30:41,770 - WARNING - 
+2025-01-24 08:30:41,772 - INFO - Starting Moonraker connection client.
+2025-01-24 08:30:41,774 - INFO - Moonraker client starting websocket connection thread.
+2025-01-24 08:30:41,786 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-01-24 08:30:41,794 - ERROR - [Errno 111] Connection refused - goodbye
+2025-01-24 08:30:41,797 - INFO - Moonraker websocket connection closed.
+2025-01-24 08:30:41,799 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2025-01-24 08:30:43,810 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-01-24 08:30:43,817 - ERROR - [Errno 111] Connection refused - goodbye
+2025-01-24 08:30:43,820 - INFO - Moonraker websocket connection closed.
+2025-01-24 08:30:43,821 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2025-01-24 08:30:45,833 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-01-24 08:30:45,838 - ERROR - [Errno 111] Connection refused - goodbye
+2025-01-24 08:30:45,840 - INFO - Moonraker websocket connection closed.
+2025-01-24 08:30:45,842 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2025-01-24 08:30:45,989 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2025-01-24 08:30:45,990 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
+2025-01-24 08:30:45,992 - INFO - Moonraker webcam helper failed to query for webcams from API, no websocket is connected.
+2025-01-24 08:30:47,852 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-01-24 08:30:47,885 - INFO - Websocket connected
+2025-01-24 08:30:47,896 - INFO - Moonraker client websocket opened.
+2025-01-24 08:30:47,899 - INFO - Moonraker client waiting for klippy ready...
+2025-01-24 08:30:47,901 - INFO - Authenticating with moonraker...
+2025-01-24 08:30:47,915 - INFO - Kicking the webcam setting read thread due to a request. Forced: True, NeedAutoSettings: True, TimeSinceLastWake: 1737725447.9155977 sec.
+2025-01-24 08:30:47,979 - INFO - Moonraker client waiting for klippy ready...
+2025-01-24 08:30:47,987 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2025-01-24 08:30:49,998 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2025-01-24 08:30:49,999 - INFO - Moonraker client setting up default notification hooks
+2025-01-24 08:30:50,416 - INFO - Printer state at socket connect is: standby
+2025-01-24 08:30:50,418 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2025-01-24 08:33:14,091 - INFO - Creating new session for http://127.0.0.1:80
+2025-01-24 08:43:02,904 - INFO - Websocket connected
+2025-01-24 08:43:02,907 - INFO - Web Stream ws   [15] opened, attempt 1 after 0.024815797805786133 seconds
+2025-01-24 08:43:02,952 - INFO - Web Stream ws   [15] first message sent to local server after 0.07069730758666992 seconds
+2025-01-24 08:43:20,407 - INFO - Web Stream ws   [15] websocket closed after 17.525270223617554 seconds
+2025-01-24 08:43:25,933 - INFO - Websocket connected
+2025-01-24 08:43:25,937 - INFO - Web Stream ws   [102] opened, attempt 1 after 0.026584863662719727 seconds
+2025-01-24 08:43:25,942 - INFO - Web Stream ws   [102] first message sent to local server after 0.032000064849853516 seconds
+2025-01-24 08:44:35,203 - INFO - Web Stream ws   [102] websocket closed after 69.29278492927551 seconds
+2025-01-24 08:45:40,746 - INFO - Updating server latencies...
+2025-01-24 08:45:47,812 - INFO - Ping Pong Stats: Default:[nyc,22.150278091430664], Lowest:[nyc,22.150278091430664] Use Low Latency Enabled: True
+2025-01-24 08:45:47,814 - INFO - First run latency callback fired, disconnecting primary OctoStream to reconnect to most ideal latency server. Current: wss://starport-v1.octoeverywhere.com/octoclientws[1].
+2025-01-24 08:45:47,816 - INFO - Closing all open web stream sockets (0)
+2025-01-24 08:45:47,817 - INFO - OctoServerCon websocket close start. IsPrimary?:True; wsId:281472898970144
+2025-01-24 08:45:47,832 - INFO - Service websocket closed.
+2025-01-24 08:45:47,834 - INFO - OctoServerCon disconnect complete.
+2025-01-24 08:45:47,842 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[1]
+2025-01-24 08:45:47,848 - INFO - Closing all open web stream sockets (0)
+2025-01-24 08:45:47,849 - INFO - Skipping reconnect delay due to instant reconnect request.
+2025-01-24 08:45:47,851 - INFO - Attempting to use lowest latency server: wss://nyc.octoeverywhere.com/octoclientws
+2025-01-24 08:45:47,853 - INFO - Attempting to talk to OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[2] wsId:281472899101600
+2025-01-24 08:45:47,998 - INFO - Websocket connected
+2025-01-24 08:45:48,000 - INFO - Connected To OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[2]. Starting handshake...
+2025-01-24 08:45:48,066 - INFO - Handshake complete, server con wss://nyc.octoeverywhere.com/octoclientws[2], successfully connected to OctoEverywhere!
+2025-01-24 08:45:48,067 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2025-01-24 08:49:46,934 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2025-01-24 08:49:46,941 - INFO - Moonraker client websocket shutdown called.
+2025-01-24 08:49:46,958 - INFO - Moonraker client websocket shutdown complete.
+2025-01-24 08:49:46,960 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2025-01-24 08:49:46,969 - INFO - Moonraker websocket connection closed.
+2025-01-24 08:49:46,972 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2025-01-24 08:49:48,987 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-01-24 08:49:48,996 - ERROR - [Errno 111] Connection refused - goodbye
+2025-01-24 08:49:48,998 - INFO - Moonraker websocket connection closed.
+2025-01-24 08:49:49,000 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2025-01-24 08:49:51,016 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-01-24 08:49:51,022 - ERROR - [Errno 111] Connection refused - goodbye
+2025-01-24 08:49:51,024 - INFO - Moonraker websocket connection closed.
+2025-01-24 08:49:51,026 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2025-01-24 08:49:53,038 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-01-24 08:49:53,044 - ERROR - [Errno 111] Connection refused - goodbye
+2025-01-24 08:49:53,046 - INFO - Moonraker websocket connection closed.
+2025-01-24 08:49:53,048 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2025-01-24 08:49:55,060 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-01-24 08:49:55,069 - ERROR - [Errno 111] Connection refused - goodbye
+2025-01-24 08:49:55,072 - INFO - Moonraker websocket connection closed.
+2025-01-24 08:49:55,074 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2025-01-24 08:49:57,085 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-01-24 08:49:57,122 - INFO - Websocket connected
+2025-01-24 08:49:57,125 - INFO - Moonraker client websocket opened.
+2025-01-24 08:49:57,128 - INFO - Moonraker client waiting for klippy ready...
+2025-01-24 08:49:57,131 - INFO - Authenticating with moonraker...
+2025-01-24 08:49:57,165 - INFO - Kicking the webcam setting read thread due to a request. Forced: True, NeedAutoSettings: False, TimeSinceLastWake: 1149.2472574710846 sec.
+2025-01-24 08:49:57,266 - INFO - Moonraker client waiting for klippy ready...
+2025-01-24 08:49:57,329 - INFO - Moonraker client got klippy state 'disconnected', waiting for ready...
+2025-01-24 08:50:10,897 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2025-01-24 08:50:10,900 - INFO - Moonraker client websocket shutdown called.
+2025-01-24 08:50:10,913 - INFO - Moonraker client websocket shutdown complete.
+2025-01-24 08:50:10,918 - INFO - Moonraker websocket connection closed.
+2025-01-24 08:50:10,921 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2025-01-24 08:50:11,384 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2025-01-24 08:50:11,385 - INFO - Moonraker client failed to send JsonRPC request server.info
+2025-01-24 08:50:11,392 - ERROR - Moonraker client exception in klippy waiting logic.; NoSentryReportException Exception: No Sentry Exception - Message: `Moonraker client failed to send klippy ready query message, there was no websocket.`; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 607, in _AfterOpenReadyWaiter
+    raise NoSentryReportException("Moonraker client failed to send klippy ready query message, there was no websocket.")
+octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message: `Moonraker client failed to send klippy ready query message, there was no websocket.`
+
+2025-01-24 08:50:11,394 - INFO - Moonraker client websocket shutdown called.
+2025-01-24 08:50:11,395 - INFO - Moonraker client websocket shutdown complete.
+2025-01-24 08:50:12,935 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-01-24 08:50:12,962 - INFO - Websocket connected
+2025-01-24 08:50:12,965 - INFO - Moonraker client websocket opened.
+2025-01-24 08:50:12,967 - INFO - Moonraker client waiting for klippy ready...
+2025-01-24 08:50:12,970 - INFO - Authenticating with moonraker...
+2025-01-24 08:50:12,985 - INFO - Kicking the webcam setting read thread due to a request. Forced: True, NeedAutoSettings: False, TimeSinceLastWake: 15.81817889213562 sec.
+2025-01-24 08:50:13,010 - INFO - Moonraker client waiting for klippy ready...
+2025-01-24 08:50:13,020 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2025-01-24 08:50:31,104 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2025-01-24 08:50:31,105 - INFO - Moonraker client setting up default notification hooks
+2025-01-24 08:50:31,418 - INFO - Printer state at socket connect is: standby
+2025-01-24 08:50:31,420 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2025-01-24 08:50:40,306 - INFO - Web Stream ws   [2] websocket closed after 0.016826629638671875 seconds
+2025-01-24 08:50:40,316 - INFO - Websocket connected
+2025-01-24 08:50:40,319 - INFO - Web Stream ws   [2] opened, attempt 1 after 0.029278039932250977 seconds
+2025-01-24 08:50:40,322 - ERROR - 'NoneType' object has no attribute 'sock' - goodbye
+2025-01-24 09:21:37,364 - INFO - FileMetadataCache updated for file [Hand_fixed_PLA +_6h55m.gcode]; est time: 24913.0, size: 31224, filament usage: 64196
+2025-01-24 09:21:37,424 - INFO - Gadget is now watching!
+2025-01-24 09:21:37,433 - INFO - New print started; PrintId: I4B7KG3X9T1L5M1P11V4K44TCFRYVTK1WEYAMJUPD5AJIVLHBGQL91KO00G1 file:Hand_fixed_PLA +_6h55m.gcode size:31224 filament:64196
+2025-01-24 09:21:38,358 - INFO - Creating new session for https://printer-events-v1-oeapi.octoeverywhere.com
+2025-01-24 09:21:38,551 - INFO - Popup Notification Received. Title:🎥 Share Your Print; Text:Instantly share a <strong>free and secure live stream</strong> of this print with your friends or the entire world using OctoEverywhere's new Live Links!; Type:notice; ShowFor:5 OnlyOe: False
+2025-01-24 09:21:38,576 - INFO - NotificationsHandler successfully sent 'started'
+2025-01-24 09:22:07,731 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:22:38,346 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:23:08,690 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:23:39,030 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:24:09,361 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:24:39,698 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:25:10,029 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:25:24,891 - INFO - Gadget has stopped watching!
+2025-01-24 09:25:24,894 - INFO - Bed cooldown watcher starting
+2025-01-24 09:25:24,895 - INFO - RepeatTimer thread exit
+2025-01-24 09:25:24,895 - INFO - RepeatTimer thread exit
+2025-01-24 09:25:25,070 - INFO - First layer timer is done. Stopping.
+2025-01-24 09:25:25,072 - INFO - RepeatTimer thread exit
+2025-01-24 09:25:25,763 - INFO - NotificationsHandler successfully sent 'failed'
+2025-01-24 09:32:47,231 - INFO - Bed cooldown watcher, bed is cooled down.
+2025-01-24 09:32:47,233 - INFO - Bed cooldown watcher stopped.
+2025-01-24 09:32:47,237 - INFO - RepeatTimer thread exit
+2025-01-24 09:32:47,803 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 09:32:47,804 - WARNING - NotificationsHandler failed to send event bedcooldowncomplete. Code:0. Waiting and then trying again.
+2025-01-24 09:33:08,033 - INFO - NotificationsHandler successfully sent 'bedcooldowncomplete'
+2025-01-24 09:53:13,740 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2025-01-24 09:53:13,741 - ERROR - Connection to remote host was lost. - goodbye
+2025-01-24 09:53:13,746 - INFO - Service websocket closed.
+2025-01-24 09:53:13,761 - INFO - Disconnected from OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[2]
+2025-01-24 09:53:13,769 - INFO - Closing all open web stream sockets (0)
+2025-01-24 09:53:13,771 - INFO - Sleeping for 14 seconds before trying again.
+2025-01-24 09:53:18,397 - INFO - FileMetadataCache updated for file [Hand_fixed_PLA +_6h58m.gcode]; est time: 25085.0, size: 31219, filament usage: 64254
+2025-01-24 09:53:18,427 - INFO - Gadget is now watching!
+2025-01-24 09:53:18,437 - INFO - New print started; PrintId: IJIIP7C91LJ8TC0TGXU6RZKLB3H53BRVV1HQ3MHVMOU3EHFUKVVZ1ZELQVMW file:Hand_fixed_PLA +_6h58m.gcode size:31219 filament:64254
+2025-01-24 09:53:19,010 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 3786.023800134659 sec.
+2025-01-24 09:53:19,082 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 09:53:19,084 - WARNING - NotificationsHandler failed to send event started. Code:0. Waiting and then trying again.
+2025-01-24 09:53:27,785 - INFO - Attempting to use lowest latency server: wss://nyc.octoeverywhere.com/octoclientws
+2025-01-24 09:53:27,787 - INFO - Attempting to talk to OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[3] wsId:281472830291824
+2025-01-24 09:53:30,678 - INFO - Websocket connected
+2025-01-24 09:53:30,680 - INFO - Connected To OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[3]. Starting handshake...
+2025-01-24 09:53:33,991 - INFO - Handshake complete, server con wss://nyc.octoeverywhere.com/octoclientws[3], successfully connected to OctoEverywhere!
+2025-01-24 09:53:33,992 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2025-01-24 09:53:39,415 - INFO - NotificationsHandler successfully sent 'started'
+2025-01-24 09:53:48,846 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:54:19,200 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:54:49,530 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:55:19,860 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:55:50,201 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:56:20,563 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-01-24 09:56:51,428 - INFO - Creating new session for https://gadget-v1-oeapi.octoeverywhere.com
+2025-01-24 09:56:52,371 - INFO - Gadget HostLock set to: gadget-nyc.octoeverywhere.com
+2025-01-24 09:57:13,274 - INFO - Creating new session for https://gadget-nyc.octoeverywhere.com
+2025-01-24 10:03:23,099 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 10:03:23,101 - WARNING - NotificationsHandler failed to send event firstlayerdone. Code:0. Waiting and then trying again.
+2025-01-24 10:03:43,318 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2025-01-24 10:09:25,929 - INFO - First layer timer is done. Stopping.
+2025-01-24 10:09:25,931 - INFO - RepeatTimer thread exit
+2025-01-24 10:09:26,596 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2025-01-24 10:45:45,924 - INFO - NotificationsHandler successfully sent 'progress'
+2025-01-24 10:53:19,025 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 3600.0131788253784 sec.
+2025-01-24 10:53:19,052 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 10:53:19,054 - WARNING - NotificationsHandler failed to send event timerprogress. Code:0. Waiting and then trying again.
+2025-01-24 10:53:39,286 - INFO - NotificationsHandler successfully sent 'timerprogress'
+2025-01-24 11:21:49,434 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 11:21:49,435 - WARNING - NotificationsHandler failed to send event progress. Code:0. Waiting and then trying again.
+2025-01-24 11:22:09,624 - INFO - NotificationsHandler successfully sent 'progress'
+2025-01-24 11:53:19,253 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 3600.226106405258 sec.
+2025-01-24 11:53:19,305 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 11:53:19,306 - WARNING - NotificationsHandler failed to send event timerprogress. Code:0. Waiting and then trying again.
+2025-01-24 11:53:39,513 - INFO - NotificationsHandler successfully sent 'timerprogress'
+2025-01-24 12:11:56,006 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 12:11:56,008 - WARNING - NotificationsHandler failed to send event progress. Code:0. Waiting and then trying again.
+2025-01-24 12:12:16,271 - INFO - NotificationsHandler successfully sent 'progress'
+2025-01-24 12:45:26,437 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 12:45:26,439 - WARNING - NotificationsHandler failed to send event progress. Code:0. Waiting and then trying again.
+2025-01-24 12:45:46,631 - INFO - NotificationsHandler successfully sent 'progress'
+2025-01-24 12:53:19,404 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 3600.149764060974 sec.
+2025-01-24 12:53:19,450 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 12:53:19,452 - WARNING - NotificationsHandler failed to send event timerprogress. Code:0. Waiting and then trying again.
+2025-01-24 12:53:39,702 - INFO - NotificationsHandler successfully sent 'timerprogress'
+2025-01-24 13:21:52,105 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 13:21:52,107 - WARNING - NotificationsHandler failed to send event progress. Code:0. Waiting and then trying again.
+2025-01-24 13:22:12,296 - INFO - NotificationsHandler successfully sent 'progress'
+2025-01-24 13:53:19,655 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 3600.2496752738953 sec.
+2025-01-24 13:53:19,714 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 13:53:19,716 - WARNING - NotificationsHandler failed to send event timerprogress. Code:0. Waiting and then trying again.
+2025-01-24 13:53:39,917 - INFO - NotificationsHandler successfully sent 'timerprogress'
+2025-01-24 14:01:32,154 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 14:01:32,157 - WARNING - NotificationsHandler failed to send event progress. Code:0. Waiting and then trying again.
+2025-01-24 14:01:52,420 - INFO - NotificationsHandler successfully sent 'progress'
+2025-01-24 14:41:49,111 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 14:41:49,115 - WARNING - NotificationsHandler failed to send event progress. Code:0. Waiting and then trying again.
+2025-01-24 14:42:09,404 - INFO - NotificationsHandler successfully sent 'progress'
+2025-01-24 14:53:19,897 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 3600.2399311065674 sec.
+2025-01-24 14:53:19,941 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 14:53:19,943 - WARNING - NotificationsHandler failed to send event timerprogress. Code:0. Waiting and then trying again.
+2025-01-24 14:53:30,649 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2025-01-24 14:53:30,650 - ERROR - ping/pong timed out - goodbye
+2025-01-24 14:53:30,656 - INFO - Service websocket closed.
+2025-01-24 14:53:30,658 - INFO - Disconnected from OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[3]
+2025-01-24 14:53:30,660 - INFO - Closing all open web stream sockets (0)
+2025-01-24 14:53:30,662 - INFO - Sleeping for 19 seconds before trying again.
+2025-01-24 14:53:40,177 - INFO - NotificationsHandler successfully sent 'timerprogress'
+2025-01-24 14:53:49,664 - INFO - Attempting to use lowest latency server: wss://nyc.octoeverywhere.com/octoclientws
+2025-01-24 14:53:49,669 - INFO - Attempting to talk to OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[4] wsId:281472829823536
+2025-01-24 14:53:49,810 - INFO - Websocket connected
+2025-01-24 14:53:49,812 - INFO - Connected To OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[4]. Starting handshake...
+2025-01-24 14:53:49,854 - INFO - Handshake complete, server con wss://nyc.octoeverywhere.com/octoclientws[4], successfully connected to OctoEverywhere!
+2025-01-24 14:53:49,855 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2025-01-24 15:17:49,926 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 15:17:49,928 - WARNING - NotificationsHandler failed to send event progress. Code:0. Waiting and then trying again.
+2025-01-24 15:18:10,113 - INFO - NotificationsHandler successfully sent 'progress'
+2025-01-24 15:53:20,075 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 3600.17644739151 sec.
+2025-01-24 15:53:20,123 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 15:53:20,125 - WARNING - NotificationsHandler failed to send event timerprogress. Code:0. Waiting and then trying again.
+2025-01-24 15:53:40,302 - INFO - NotificationsHandler successfully sent 'timerprogress'
+2025-01-24 15:57:55,485 - INFO - NotificationsHandler successfully sent 'progress'
+2025-01-24 16:40:00,273 - INFO - Starting FinalSnap
+2025-01-24 16:42:18,461 - INFO - Gadget has stopped watching!
+2025-01-24 16:42:18,462 - INFO - RepeatTimer thread exit
+2025-01-24 16:42:18,465 - INFO - Bed cooldown watcher starting
+2025-01-24 16:42:18,959 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 5 / 20
+2025-01-24 16:42:18,959 - INFO - RepeatTimer thread exit
+2025-01-24 16:42:18,982 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 16:42:18,984 - WARNING - NotificationsHandler failed to send event done. Code:0. Waiting and then trying again.
+2025-01-24 16:42:20,461 - INFO - RepeatTimer thread exit
+2025-01-24 16:42:40,040 - INFO - NotificationsHandler successfully sent 'done'
+2025-01-24 16:50:30,334 - INFO - Bed cooldown watcher, bed is cooled down.
+2025-01-24 16:50:30,335 - INFO - Bed cooldown watcher stopped.
+2025-01-24 16:50:30,339 - INFO - RepeatTimer thread exit
+2025-01-24 16:50:30,903 - WARNING - Failed to send notification due to a connection error. ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-24 16:50:30,905 - WARNING - NotificationsHandler failed to send event bedcooldowncomplete. Code:0. Waiting and then trying again.
+2025-01-24 16:50:51,855 - INFO - NotificationsHandler successfully sent 'bedcooldowncomplete'
+2025-01-24 19:53:49,810 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2025-01-24 19:53:49,812 - ERROR - ping/pong timed out - goodbye
+2025-01-24 19:53:49,830 - INFO - Service websocket closed.
+2025-01-24 19:53:49,833 - INFO - Disconnected from OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[4]
+2025-01-24 19:53:49,836 - INFO - Closing all open web stream sockets (0)
+2025-01-24 19:53:49,838 - INFO - Sleeping for 12 seconds before trying again.
+2025-01-24 19:54:01,849 - INFO - Attempting to use lowest latency server: wss://nyc.octoeverywhere.com/octoclientws
+2025-01-24 19:54:01,857 - INFO - Attempting to talk to OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[5] wsId:281472829812496
+2025-01-24 19:54:02,025 - INFO - Websocket connected
+2025-01-24 19:54:02,027 - INFO - Connected To OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[5]. Starting handshake...
+2025-01-24 19:54:02,107 - INFO - Handshake complete, server con wss://nyc.octoeverywhere.com/octoclientws[5], successfully connected to OctoEverywhere!
+2025-01-24 19:54:02,109 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2025-01-25 00:54:02,023 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2025-01-25 00:54:02,024 - ERROR - ping/pong timed out - goodbye
+2025-01-25 00:54:02,028 - INFO - Service websocket closed.
+2025-01-25 00:54:02,030 - INFO - Disconnected from OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[5]
+2025-01-25 00:54:02,032 - INFO - Closing all open web stream sockets (0)
+2025-01-25 00:54:02,033 - INFO - Sleeping for 18 seconds before trying again.
+2025-01-25 00:54:20,053 - INFO - Attempting to use lowest latency server: wss://nyc.octoeverywhere.com/octoclientws
+2025-01-25 00:54:20,059 - INFO - Attempting to talk to OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[6] wsId:281472829824256
+2025-01-25 00:54:20,215 - INFO - Websocket connected
+2025-01-25 00:54:20,218 - INFO - Connected To OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[6]. Starting handshake...
+2025-01-25 00:54:20,279 - INFO - Handshake complete, server con wss://nyc.octoeverywhere.com/octoclientws[6], successfully connected to OctoEverywhere!
+2025-01-25 00:54:20,281 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2025-01-25 05:54:20,208 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2025-01-25 05:54:20,209 - ERROR - ping/pong timed out - goodbye
+2025-01-25 05:54:20,212 - INFO - Service websocket closed.
+2025-01-25 05:54:20,213 - INFO - Disconnected from OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[6]
+2025-01-25 05:54:20,215 - INFO - Closing all open web stream sockets (0)
+2025-01-25 05:54:20,216 - INFO - Sleeping for 25 seconds before trying again.
+2025-01-25 05:54:45,219 - INFO - Attempting to use lowest latency server: wss://nyc.octoeverywhere.com/octoclientws
+2025-01-25 05:54:45,225 - INFO - Attempting to talk to OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[7] wsId:281472829427424
+2025-01-25 05:54:45,359 - INFO - Websocket connected
+2025-01-25 05:54:45,361 - INFO - Connected To OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[7]. Starting handshake...
+2025-01-25 05:54:45,436 - INFO - Handshake complete, server con wss://nyc.octoeverywhere.com/octoclientws[7], successfully connected to OctoEverywhere!
+2025-01-25 05:54:45,437 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2025-01-25 08:37:30,256 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 60250.17938375473 sec.
+2025-01-25 09:48:30,757 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 4260.497302532196 sec.
+2025-01-25 09:49:16,321 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2025-01-25 09:49:16,324 - INFO - Moonraker client websocket shutdown called.
+2025-01-25 09:49:16,336 - INFO - Moonraker client websocket shutdown complete.
+2025-01-25 09:49:16,339 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2025-01-25 09:49:16,342 - INFO - Moonraker websocket connection closed.
+2025-01-25 09:49:16,347 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2025-01-25 09:49:18,367 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-01-25 09:49:18,392 - INFO - Websocket connected
+2025-01-25 09:49:18,401 - INFO - Moonraker client websocket opened.
+2025-01-25 09:49:18,404 - INFO - Moonraker client waiting for klippy ready...
+2025-01-25 09:49:18,406 - INFO - Authenticating with moonraker...
+2025-01-25 09:49:18,430 - INFO - Kicking the webcam setting read thread due to a request. Forced: True, NeedAutoSettings: False, TimeSinceLastWake: 47.670162200927734 sec.
+2025-01-25 09:49:18,484 - INFO - Moonraker client waiting for klippy ready...
+2025-01-25 09:49:18,497 - INFO - Moonraker client got klippy state 'disconnected', waiting for ready...
+2025-01-25 09:49:28,548 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2025-01-25 09:49:28,549 - INFO - Moonraker client setting up default notification hooks
+2025-01-25 09:49:29,711 - INFO - Printer state at socket connect is: standby
+2025-01-25 09:49:29,713 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2025-01-25 10:02:07,851 - INFO - Creating new session for http://0.0.0.0:7125
+2025-01-25 10:02:39,523 - INFO - Main request http URL threw an exception: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-25 10:03:10,632 - INFO - Main request http URL threw an exception: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-25 10:03:49,253 - INFO - Main request http URL threw an exception: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-01-25 10:54:45,353 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2025-01-25 10:54:45,354 - ERROR - ping/pong timed out - goodbye
+2025-01-25 10:54:45,357 - INFO - Service websocket closed.
+2025-01-25 10:54:45,359 - INFO - Disconnected from OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[7]
+2025-01-25 10:54:45,361 - INFO - Closing all open web stream sockets (0)
+2025-01-25 10:54:45,362 - INFO - Sleeping for 11 seconds before trying again.
+2025-01-25 10:54:56,373 - INFO - Attempting to use lowest latency server: wss://nyc.octoeverywhere.com/octoclientws
+2025-01-25 10:54:56,379 - INFO - Attempting to talk to OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[8] wsId:281472342513552
+2025-01-25 10:54:56,533 - INFO - Websocket connected
+2025-01-25 10:54:56,536 - INFO - Connected To OctoEverywhere, server con wss://nyc.octoeverywhere.com/octoclientws[8]. Starting handshake...
+2025-01-25 10:54:56,627 - INFO - Handshake complete, server con wss://nyc.octoeverywhere.com/octoclientws[8], successfully connected to OctoEverywhere!
+2025-01-25 10:54:56,629 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
